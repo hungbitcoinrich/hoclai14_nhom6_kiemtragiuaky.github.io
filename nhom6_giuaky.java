@@ -15,7 +15,7 @@ public class nhom6_giuaky {
     public static double multipy(double a, double b) {
         return a * b;
     }
-    // thay doi
+    // thay doit
 
     =======
 
