@@ -30,6 +30,9 @@ public class nhom6_giuaky {
         double result = 0;
 
         switch (choice) {
+            // case 1:
+            // result = add(num1, num2);
+            // break;
             case 4:
                 result = divide(num1, num2);
                 System.out.println("Kết quả: " + result);
