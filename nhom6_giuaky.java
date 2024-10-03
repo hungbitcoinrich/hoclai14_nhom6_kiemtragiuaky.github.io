@@ -25,6 +25,9 @@ public class nhom6_giuaky {
         double result = 0;
 
         switch (choice) {
+            // case 1:
+            // result = add(num1, num2);
+            // break;
             case 1:
                 result = add(num1, num2);
                 break;
@@ -33,6 +36,6 @@ public class nhom6_giuaky {
                 return;
         }
 
-        System.out.println("Kết quả: " + result);
+        // System.out.println("Kết quả: " + result);
     }
 }
