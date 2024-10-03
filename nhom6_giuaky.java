@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class nhom6_giuaky {
 
+    public static  double multipy(double a, double b){
+        return a * b;
+    }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,15 +24,21 @@ public class nhom6_giuaky {
         int choice = scanner.nextInt();
         double result = 0;
 
+        
         switch (choice) {
             // case 1:
             // result = add(num1, num2);
             // break;
+            case 3:
+                result = multipy(num1,num2);
+                System.out.println("Kết quả: " + result);
+            break;
             default:
                 System.out.println("Lựa chọn không hợp lệ!");
                 return;
         }
 
         // System.out.println("Kết quả: " + result);
+        
     }
 }
