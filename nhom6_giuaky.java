@@ -6,6 +6,7 @@ public class nhom6_giuaky {
         return a + b;
     }
 
+    // thay doi
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
