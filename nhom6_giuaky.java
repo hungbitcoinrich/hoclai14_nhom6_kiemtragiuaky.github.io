@@ -2,10 +2,19 @@ import java.util.Scanner;
 
 public class nhom6_giuaky {
 
+<<<<<<< HEAD
     public static  double multipy(double a, double b){
         return a * b;
     }
     
+=======
+    public static double subtract(double a, double b) {
+        return a - b;
+    }
+
+
+
+>>>>>>> 0831cb87b49022814be842209a8e9ddc6dddea68
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -29,9 +38,14 @@ public class nhom6_giuaky {
             // case 1:
             // result = add(num1, num2);
             // break;
+<<<<<<< HEAD
             case 3:
                 result = multipy(num1,num2);
                 System.out.println("Kết quả: " + result);
+=======
+            case 2:
+                result = subtract(num1, num2);
+>>>>>>> 0831cb87b49022814be842209a8e9ddc6dddea68
             break;
             default:
                 System.out.println("Lựa chọn không hợp lệ!");
@@ -39,6 +53,10 @@ public class nhom6_giuaky {
         }
 
         // System.out.println("Kết quả: " + result);
+<<<<<<< HEAD
         
+=======
+        System.out.println("Ket qua: " + result);
+>>>>>>> 0831cb87b49022814be842209a8e9ddc6dddea68
     }
 }
