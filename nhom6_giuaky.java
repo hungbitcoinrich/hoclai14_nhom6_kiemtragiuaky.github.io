@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class nhom6_giuaky {
 
+    public static double subtract(double a, double b) {
+        return a - b;
+    }
+
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,11 +30,15 @@ public class nhom6_giuaky {
             // case 1:
             // result = add(num1, num2);
             // break;
+            case 2:
+                result = subtract(num1, num2);
+            break;
             default:
                 System.out.println("Lựa chọn không hợp lệ!");
                 return;
         }
 
         // System.out.println("Kết quả: " + result);
+        System.out.println("Ket qua: " + result);
     }
 }
